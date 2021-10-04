@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Congratulations!</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <p id="score-txt">Score</p>
+        <h1 id="finalScore">0</h1>
+        <form>
+          <div class="flex-column">
+            <label for="username">Enter Name</label>
+            <input
+              id="username"
+              name="username"
+              placeholder="Username"
+              autocomplete="off"
+            />
+            <button
+              type="button"
+              value="Submit"
+              class="btn"
+              id="saveScoreBtn"
+              disabled
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+        <div style="display: flex; margin-top: 8rem">
+          <a class="btn" href="./game.html" style="margin-right: 2rem"
+            >Play Again!</a
+          >
+          <a class="btn" href="./index.html">Go Home</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/endPage.js"></script>
+  </body>
+</html>

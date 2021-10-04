@@ -1,0 +1,16 @@
+#highScoresList {
+  margin-bottom: 4rem;
+  list-style: none;
+}
+
+.high-score {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  transition: 400ms ease;
+}
+
+.high-score:hover {
+  transform: scale(1.25);
+}
